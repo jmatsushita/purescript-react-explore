@@ -2,7 +2,7 @@
   "name": "purescript-react-explore",
   "files": [],
   "scripts": {
-    "example": "pulp browserify --main Test.Main --to html/index.js"
+    "example": "spago bundle-module --main Test.Main --to html/index.js"
   },
   "dependencies": {
     "react": "^15.6.2",
